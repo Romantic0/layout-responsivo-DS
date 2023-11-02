@@ -1,0 +1,82 @@
+body, h1, h2, p, ul, li {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Arial', sans-serif;
+   color: yellow;
+   background-color: black;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+h1 {
+   color: yellow;
+   font-family: 'fantasy';
+   background-color: black;
+   text-align: center;
+   padding: 10px 0;
+}
+
+h2 {
+   font-size: 36px;
+   margin-bottom: 10px;
+}
+
+p {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+ul {
+   list-style: none;
+   font-size: 18px;
+}
+
+li {
+   font-family: 'fantasy';
+   margin-bottom: 10px;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin-bottom: 20px;
+}
+
+a {
+   color: yellow;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+   h1 {
+       font-size: 28px;
+   }
+
+   h2 {
+       font-size: 24px;
+   }
+
+   p {
+       font-size: 16px;
+       margin-bottom: 15px;
+   }
+
+   ul {
+       font-size: 14px;
+   }
+}

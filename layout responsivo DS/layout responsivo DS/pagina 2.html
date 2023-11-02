@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quais seus bosses favoritos e ideias para um BOSS</title>
+    <meta author="Guilherme Afons Casa">
+    <style>
+        body {
+            
+            color: yellow;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        input,
+        textarea,
+        button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        a {
+            color: #00FFFF;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+    <style>
+        @media screen and (max-width: 600px) {
+            body {
+                background: url(https://i.pinimg.com/originals/9c/19/74/9c19744d5204799dd343696ce4656548.jpg) no-repeat center top fixed;
+                background-size: cover;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Quais seus bosses favoritos e ideias para um BOSS</h1>
+    </header>
+    <main>
+        <p>Agora deixarei a cargo da sua opinião qual seus bosses favoritos, ideias para um boss novo</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+            <p>Qual seu boss favorito:</p>
+            <input type="radio" name="bossF" id="SIF"> <label for="SIF">SIF</label>
+            <input type="radio" name="bossF" id="Artorias"> <label for="Artorias">Artorias</label>
+            <input type="radio" name="bossF" id="Gwyn"> <label for="Gwyn">Gwyn</label>
+            <input type="radio" name="bossF" id="OS"> <label for="OS">Ornstein e Smough</label>
+            <br>
+            <p>Agora compartilhe sua ideia conosco:</p>
+            <textarea id="motivo" placeholder="Ideias para boss" rows="8" cols="50"></textarea>
+            <button type="submit">ENVIAR</button>
+            <button type="reset">LIMPAR</button>
+        </form>
+    </main>
+    <a href="trabalho.html">Página Anterior</a>
+</body>
+
+</html>
+
